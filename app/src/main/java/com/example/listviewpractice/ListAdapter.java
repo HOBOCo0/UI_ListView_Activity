@@ -33,6 +33,8 @@ public class ListAdapter extends ArrayAdapter<User> {
         TextView userName = convertView.findViewById(R.id.heroName);
         TextView lastMsg = convertView.findViewById(R.id.lastMessage);
 
+        // setting image name and last message for each element of the list view
+
         imageView.setImageResource(user.mImageId);
         userName.setText(user.mName);
         lastMsg.setText(user.mLastMessage);

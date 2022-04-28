@@ -1,6 +1,10 @@
 package com.example.listviewpractice;
 
+// created a user class to feed the
+// data to the user
+
 public class User {
+
     String mName,mLastMessage,mPhoneNo,mCountry;
     int mImageId;
 
