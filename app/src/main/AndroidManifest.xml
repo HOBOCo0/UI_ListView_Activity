@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ListViewPractice">
         <activity
-            android:name=".UserActivity">
+            android:name=".UserActivity"
+            android:parentActivityName=".MainActivity">
 
         </activity>
         <activity android:name=".MainActivity"
