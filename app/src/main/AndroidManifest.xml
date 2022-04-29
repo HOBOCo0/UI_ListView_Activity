@@ -11,6 +11,7 @@
         android:theme="@style/Theme.ListViewPractice">
         <activity
             android:name=".ProfilePicDisplay"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
             android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
